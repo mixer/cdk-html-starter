@@ -1,0 +1,13 @@
+{
+  "name": "interactive-html-starter",
+  "version": "1.0.0",
+  "description": "Starter project for a plain HTML project",
+  "main": "index.js",
+  "devDependencies": {
+    "@mcph/miix-cli": "^0.2.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.2.3",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
