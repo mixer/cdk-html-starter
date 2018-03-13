@@ -1,0 +1,6 @@
+module.exports = [
+  {
+    paths: ['src', 'package.json', 'webpack.config.js', '.gitignore'],
+    action: 'include',
+  },
+];

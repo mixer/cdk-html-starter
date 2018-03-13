@@ -1,4 +1,4 @@
-window.addListener('load', function initMixer() {
+window.addEventListener('load', function initMixer() {
   // Move the video by a static offset amount
   const offset = 50;
   mixer.display.moveVideo({
