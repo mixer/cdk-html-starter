@@ -7,7 +7,7 @@
     "start": "miix serve"
   },
   "devDependencies": {
-    "@mcph/miix-cli": "^0.2.0",
+    "@mcph/miix-cli": "^0.2.7",
     "clean-webpack-plugin": "^0.1.17",
     "copy-webpack-plugin": "^4.2.3",
     "prettier": "^1.11.1",
