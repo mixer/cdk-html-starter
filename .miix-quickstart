@@ -1,6 +1,9 @@
-module.exports = [
-  {
-    paths: ['src', 'package.json', 'webpack.config.js', '.gitignore'],
-    action: 'include',
-  },
-];
+module.exports = {
+  name: 'cdk-html-starter',
+  tasks: [
+    {
+      paths: ['src', 'package.json', 'webpack.config.js', '.gitignore'],
+      action: 'include',
+    },
+  ],
+};

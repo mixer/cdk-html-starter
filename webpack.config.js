@@ -1,5 +1,5 @@
 
-const { MixerPlugin } = require('@mcph/miix-cli');
+const { MixerPlugin } = require('@mcph/miix-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
 const path = require('path');
@@ -8,6 +8,9 @@ module.exports = {
   // Entry file that webpack will start looking at. We point it at the
   // "scripts" file.
   entry: path.resolve(__dirname, 'src/scripts.js'),
+  // The build mode so that Webpack knows whether to compress
+  // our assets for faster loading.
+  mode: process.env.ENV === 'production' ? 'production' : 'development',
   // Tell webpack that we want to output our bundle to the `build` directory.
   output: {
     path: path.resolve(__dirname, 'build'),
