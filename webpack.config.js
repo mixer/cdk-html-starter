@@ -1,5 +1,5 @@
 
-const { MixerPlugin } = require('@mcph/miix-webpack-plugin');
+const { MixerPlugin } = require('@mixer/cdk-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
 const path = require('path');
